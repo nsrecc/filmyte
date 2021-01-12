@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <Head>
+    <title>
+      Filmyte
+    </title>
+    <link
+      href="/favicon.ico"
+      rel="icon"
+    />
+  </Head>
+  <main
+    className="main"
+  >
+    <h1
+      className="title"
+    >
+      Welcome to Filmyte!
+    </h1>
+  </main>
+  <footer
+    className="footer"
+  >
+    <a
+      href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Powered by
+       
+      <img
+        alt="Vercel Logo"
+        className="logo"
+        src="/vercel.svg"
+      />
+    </a>
+  </footer>
+</div>
+`;

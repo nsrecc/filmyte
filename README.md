@@ -24,6 +24,7 @@ TO DO
 
 * JavaScript
 * [React](https://reactjs.org/) - JavaScript library for building user interfaces
+* [Sass](https://sass-lang.com/) - CSS extension language
 * [Node.js](https://nodejs.org/en/) - JavaScript runtime
 * [GraphQL](https://graphql.org/) - Query language for APIs
 * [Apollo GraphQL](https://www.apollographql.com/) - Data graph platform which includes Apollo Client
@@ -32,6 +33,8 @@ TO DO
 * [Jest](https://jestjs.io/en/) - JavaScript Testing Framework
 * [Enzyme](https://enzymejs.github.io/enzyme/) - JavaScript Testing Utility for React
     * [@wojtekmaj/enzyme-adapter-react-17](https://github.com/wojtekmaj/enzyme-adapter-react-17) - Unofficial Enzyme adapter for React v17.0 until official support is released. For more information, see here: https://github.com/enzymejs/enzyme/issues/2429
+    * [enzyme-to-json](https://github.com/adriantoine/enzyme-to-json) - Converts Enzyme wrappers to a format compatible with Jest snapshot testing
+* [identity-obj-proxy](https://github.com/keyz/identity-obj-proxy) - Identity object using ES6 proxies for mocking Webpack imports like CSS Modules
 
 ## Powered By
 
