@@ -27,6 +27,8 @@
         "react/jsx-one-expression-per-line": "off",
         "comma-dangle": ["warn", "always-multiline"],
         "no-unused-vars": "warn",
+        "react/forbid-prop-types": "warn",
+        "react/prop-types": "warn",
         "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
         "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }]
     }

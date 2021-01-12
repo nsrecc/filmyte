@@ -24,6 +24,7 @@ TO DO
 
 * JavaScript
 * [React](https://reactjs.org/) - JavaScript library for building user interfaces
+    * [prop-types](https://github.com/facebook/prop-types) - Runtime type checking for React props and similar objects
 * [Sass](https://sass-lang.com/) - CSS extension language
 * [Node.js](https://nodejs.org/en/) - JavaScript runtime
 * [GraphQL](https://graphql.org/) - Query language for APIs
