@@ -30,6 +30,7 @@
         "react/forbid-prop-types": "warn",
         "react/prop-types": "warn",
         "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
+        "object-curly-newline": ["error", { "multiline": true }],
         "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }]
     }
 }

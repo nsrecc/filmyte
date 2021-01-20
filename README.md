@@ -8,17 +8,27 @@ The web client for Filmyte interacts with [Filmyte web server](https://github.co
 
 ### Setup
 
-TO DO
+Clone or download this repository.
+
+Install the required dependencies: `npm install`.
 
 ### Usage
 
-Run the client for development environment: `npm run dev`
+Run the client for development environment: `npm run dev`.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the Filmyte web client.
 
 ### Testing
 
-TO DO
+Ensure that `.babelrc` file exists at root directory with the required `"next/babel"` preset for Next.js and defined plugins array for Jest to parse the files.
+
+Configure the `jest.config.js` file to only run test files with certain name scheme `*.test.{js,jsx}`, and to collect coverage from certain files.
+
+Provide `cross-fetch` to `HttpLink`'s constructor while creating `ApolloClient` to ensure that `fetch` is present in the runtime environment for testing.
+
+Run the Jest test framework: `npm test`.
+
+Coverage results are placed in the `/coverage` folder at the root directory.
 
 ## Built With
 
@@ -30,6 +40,7 @@ TO DO
 * [GraphQL](https://graphql.org/) - Query language for APIs
 * [Apollo GraphQL](https://www.apollographql.com/) - Data graph platform which includes Apollo Client
 * [Next.js](https://nextjs.org/) - React framework for production with hybrid static and server rendering, smart bundling, route pre-fetching, file-system routing, built-in support for CSS Modules and Sass, etc.
+* [cross-fetch](https://github.com/lquixada/cross-fetch) - Universal WHATWG Fetch API for Node, Browsers and React Native
 * [Lodash](https://lodash.com/) - Modern JavaScript utility library
 * [Jest](https://jestjs.io/en/) - JavaScript Testing Framework
 * [Enzyme](https://enzymejs.github.io/enzyme/) - JavaScript Testing Utility for React
