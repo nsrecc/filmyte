@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow, mount, render } from 'enzyme';
 // only use MockedProvider if using queries in tests
-import { MockedProvider } from '@apollo/client/testing';
+// import { MockedProvider } from '@apollo/client/testing';
 import Home from 'pages/index';
 
 describe('Home', () => {

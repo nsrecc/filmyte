@@ -21,6 +21,7 @@
         "react"
     ],
     "rules": {
+        "arrow-body-style": "off",
         "import/no-unresolved": "off",
         "import/prefer-default-export": "off",
         "no-underscore-dangle": "off",
@@ -30,7 +31,6 @@
         "react/forbid-prop-types": "warn",
         "react/prop-types": "warn",
         "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
-        "object-curly-newline": ["error", { "multiline": true }],
         "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }]
     }
 }
