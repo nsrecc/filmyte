@@ -2,7 +2,6 @@
 
 exports[`Home matches snapshot 1`] = `
 <Fragment>
-  <Head />
   <p
     className="title"
   >

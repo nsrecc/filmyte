@@ -9,9 +9,9 @@ const Home = ({ data }) => {
 
   return (
     <>
-      <Head>
-        {/* <title>Filmyte | Discover Your Movies and TV Shows</title> */}
-      </Head>
+      {/* <Head>
+        <title>Home | Filmyte</title>
+      </Head> */}
 
       <p className={styles.title}>Welcome to Filmyte!</p>
     </>
