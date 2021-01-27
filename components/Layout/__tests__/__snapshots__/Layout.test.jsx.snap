@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout matches snapshot 1`] = `
+<Fragment>
+  <Head>
+    <meta
+      content="IE=edge"
+      httpEquiv="X-UA-Compatible"
+    />
+    <meta
+      content="width=device-width, initial-scale=1"
+      name="viewport"
+    />
+    <title>
+      Filmyte | Discover Your Movies and TV Shows
+    </title>
+    <link
+      href="/favicon.ico"
+      rel="icon"
+    />
+  </Head>
+  <Header />
+  <main>
+    <p>
+      test
+    </p>
+  </main>
+  <Footer />
+</Fragment>
+`;

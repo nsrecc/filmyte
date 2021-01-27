@@ -4,6 +4,7 @@ import { shallow, mount, render } from 'enzyme';
 // import { MockedProvider } from '@apollo/client/testing';
 import Home from 'pages/index';
 
+// TO DO: fix / do more tests when Home is completed
 describe('Home', () => {
   it('matches snapshot', () => {
     // const wrapper = mount((
