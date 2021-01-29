@@ -1,11 +1,16 @@
 @use "styles/variables" as *;
 
+/**
+ * - px for border widths, box shadows, etc.
+ * - em for font sizes
+ * - rem for margins, padding
+ * - vw/vh may also be used for layouting
+ */
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: $ui-color-background-primary;
@@ -20,12 +25,6 @@ a {
   box-sizing: border-box;
 }
 
-code {
-  // background: #fafafa;
-  // border-radius: 5px;
-  // padding: 0.75rem;
-  // font-size: 1.1rem;
-  // font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-  //   Bitstream Vera Sans Mono, Courier New, monospace;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
+// h1 {
+//   font-size: 2em;
+// }

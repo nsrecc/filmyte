@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches snapshot 1`] = `
+<header
+  className="header"
+>
+  <Link
+    href="/"
+  >
+    <a
+      className="headerLogoWrapper"
+    >
+      <span
+        className="filmyteLogo"
+      >
+        Filmyte
+      </span>
+    </a>
+  </Link>
+  <nav
+    className="navWrapper"
+  >
+    <ul
+      className="navList"
+    >
+      <li>
+        <Link
+          href="/discover"
+        >
+          <a>
+            Discover
+          </a>
+        </Link>
+      </li>
+      <li>
+        <Link
+          href="/about"
+        >
+          <a>
+            About
+          </a>
+        </Link>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

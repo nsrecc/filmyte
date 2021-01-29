@@ -18,9 +18,19 @@ exports[`Layout matches snapshot 1`] = `
       href="/favicon.ico"
       rel="icon"
     />
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;1,700&family=Open+Sans&display=swa"
+      rel="stylesheet"
+    />
   </Head>
   <Header />
-  <main>
+  <main
+    className="mainContainer"
+  >
     <p>
       test
     </p>

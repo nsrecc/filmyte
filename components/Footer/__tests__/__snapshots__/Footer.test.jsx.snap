@@ -9,10 +9,12 @@ exports[`Footer matches snapshot 1`] = `
   >
     © 2021 filmyte.com
   </p>
-  <section
+  <div
     className="poweredBy"
   >
-    <p>
+    <p
+      className="poweredByText"
+    >
       Powered by:
     </p>
     <ul
@@ -20,7 +22,7 @@ exports[`Footer matches snapshot 1`] = `
     >
       <li>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://vercel.com/"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -41,6 +43,6 @@ exports[`Footer matches snapshot 1`] = `
         </a>
       </li>
     </ul>
-  </section>
+  </div>
 </footer>
 `;

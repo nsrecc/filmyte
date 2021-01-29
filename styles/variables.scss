@@ -15,14 +15,23 @@ $gray-95: #f2f2f2;
 
 $white-pure: #ffffff;
 
+// Filmyte Colors
+// - Blue to Orange Gradient Color Palette: https://www.color-hex.com/color-palette/100362
+// - Names via: https://chir.ag/projects/name-that-color/#6195ED
+$filmyte-downriver: #0e3b5c;
+$filmyte-mulled-wine: #5e4f6d;
+$filmyte-copper-rose: #9f6671;
+$filmyte-new-york-pink: #d8897b;
+$filmyte-rajah: #f4ac7b;
+
 // The Movie Database (TMDb) - https://www.themoviedb.org/about/logos-attribution
 $tmdb-primary-color: #0d253f; // dark blue
 $tmdb-secondary-color: #01b4e4; // light blue
 $tmdb-tertiary-color: #90cea1; // light green
 
 // UI Color Config
-$ui-color-background-primary: $gray-95;
-$ui-color-background-secondary: $gray-90;
+$ui-color-background-primary: $gray-90;
+$ui-color-background-secondary: $gray-80;
 $ui-color-background-tertiary: $white-pure;
 
 /* Breakpoints */

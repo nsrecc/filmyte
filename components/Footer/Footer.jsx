@@ -5,15 +5,11 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <p id="copyright">&copy; 2021 filmyte.com</p>
-      <section className={styles.poweredBy}>
-        <p>Powered by:</p>
+      <div className={styles.poweredBy}>
+        <p className={styles.poweredByText}>Powered by:</p>
         <ul className={styles.poweredByList}>
           <li>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">
               <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
             </a>
           </li>
@@ -23,7 +19,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-      </section>
+      </div>
     </footer>
   );
 };

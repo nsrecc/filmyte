@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Head from 'next/head';
 import Header from 'components/Header/Header';
 import Footer from 'components/Footer/Footer';
-// import styles from './Layout.scss'
+import styles from './Layout.module.scss';
 
 /**
  * The Layout component wraps all the pages with:
@@ -22,9 +22,12 @@ const Layout = ({ children }) => {
 
         <title>Filmyte | Discover Your Movies and TV Shows</title>
         <link rel="icon" href="/favicon.ico" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;1,700&family=Open+Sans&display=swa" rel="stylesheet" />
       </Head>
       <Header />
-      <main>
+      <main className={styles.mainContainer}>
         { children }
       </main>
       <Footer />
