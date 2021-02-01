@@ -1,0 +1,21 @@
+// @use "styles/variables" as v;
+@use "styles/mixins" as m;
+
+.mainInner {
+  @include m.maxWidth;
+  padding: 2rem;
+
+  .titleSection {
+    text-align: center;
+
+    .title {
+      @include m.filmyteLogo;
+      font-size: 4em;
+    }
+    
+    .subTitle {
+      @include m.filmyteLogo;
+      font-size: 1.5em;
+    }
+  }
+}

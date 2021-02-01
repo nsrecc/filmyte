@@ -1,11 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home matches snapshot 1`] = `
-<Fragment>
-  <p
-    className="title"
+<div
+  className="mainInner"
+>
+  <section
+    className="titleSection"
   >
-    Welcome to Filmyte!
-  </p>
-</Fragment>
+    <h1
+      className="title"
+    >
+      Filmyte
+    </h1>
+    <h2
+      className="subTitle"
+    >
+      Discover Your Movies and TV Shows
+    </h2>
+  </section>
+</div>
 `;

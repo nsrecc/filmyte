@@ -6,25 +6,27 @@ import styles from './Header.module.scss';
 const Header = () => {
   return (
     <header className={styles.header}>
-      <Link href="/">
-        <a className={styles.headerLogoWrapper}>
-          <span className={styles.filmyteLogo}>Filmyte</span>
-        </a>
-      </Link>
-      <nav className={styles.navWrapper}>
-        <ul className={styles.navList}>
-          <li>
-            <Link href="/discover">
-              <a>Discover</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <div className={styles.headerInner}>
+        <Link href="/">
+          <a className={styles.headerLogoLink}>
+            <span className={styles.filmyteLogo}>Filmyte</span>
+          </a>
+        </Link>
+        <nav className={styles.navWrapper}>
+          <ul className={styles.navList}>
+            <li>
+              <Link href="/discover">
+                <a>Discover</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 };

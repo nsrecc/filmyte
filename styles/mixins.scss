@@ -3,3 +3,13 @@
   font-weight: bold;
   font-family: 'Asap', sans-serif;
 }
+
+@mixin maxWidthWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin maxWidth {
+  max-width: 1440px;
+  width: 100%;
+}

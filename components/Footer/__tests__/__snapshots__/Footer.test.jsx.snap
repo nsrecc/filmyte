@@ -4,45 +4,49 @@ exports[`Footer matches snapshot 1`] = `
 <footer
   className="footer"
 >
-  <p
-    id="copyright"
-  >
-    © 2021 filmyte.com
-  </p>
   <div
-    className="poweredBy"
+    className="footerInner"
   >
     <p
-      className="poweredByText"
+      id="copyright"
     >
-      Powered by:
+      © 2021 filmyte.com
     </p>
-    <ul
-      className="poweredByList"
+    <div
+      className="poweredBy"
     >
-      <li>
-        <a
-          href="https://vercel.com/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Vercel Logo"
-            className="logo"
-            src="/vercel.svg"
-          />
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.themoviedb.org/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          The Movie Database (TMDb)
-        </a>
-      </li>
-    </ul>
+      <p
+        className="poweredByText"
+      >
+        Powered by:
+      </p>
+      <ul
+        className="poweredByList"
+      >
+        <li>
+          <a
+            href="https://vercel.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Vercel Logo"
+              className="logo"
+              src="/vercel.svg"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.themoviedb.org/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            The Movie Database (TMDb)
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </footer>
 `;

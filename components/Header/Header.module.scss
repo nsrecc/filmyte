@@ -1,36 +1,40 @@
-@use "styles/variables" as *;
+@use "styles/variables" as v;
 @use "styles/mixins" as m;
 
 .header {
-  width: 100%;
-  padding: 1rem 2rem;
-  display: inline-flex;
-  align-items: center;
-  background-color: $filmyte-rajah;
+  @include m.maxWidthWrapper;
+  background-color: v.$filmyte-rajah;
+  // background-color: v.$white-pure;
 
-  .headerLogoWrapper {
-    margin-right: 1.5rem;
-    padding: 0.5rem;
-    display: flex;
-    justify-content: center;
+  .headerInner {
+    @include m.maxWidth;
+    padding: 1rem 2rem;
+    display: inline-flex;
+    justify-content: space-between;
     align-items: center;
+  }
+
+  .headerLogoLink {
+    padding: 0.5rem; // added padding to increase mouse click area
     
     .filmyteLogo {
       @include m.filmyteLogo;
-      font-size: 2em;
+      font-size: 2.2em;
     }
   }
 
   .navWrapper {
     .navList {
       display: inline-flex;
+      justify-content: center;
+      align-items: center;
       list-style: none;
       padding: 0;
-      margin: 0 auto;
+      margin: 0;
 
       // nav list items
       li {
-        margin: 0 1.5rem;
+        margin-left: 3rem;
 
         a {
           padding: 0.5rem; // added padding to increase mouse click area

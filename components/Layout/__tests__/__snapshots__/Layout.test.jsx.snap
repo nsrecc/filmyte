@@ -29,7 +29,7 @@ exports[`Layout matches snapshot 1`] = `
   </Head>
   <Header />
   <main
-    className="mainContainer"
+    className="main"
   >
     <p>
       test

@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
         <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;1,700&family=Open+Sans&display=swa" rel="stylesheet" />
       </Head>
       <Header />
-      <main className={styles.mainContainer}>
+      <main className={styles.main}>
         { children }
       </main>
       <Footer />

@@ -4,44 +4,48 @@ exports[`Header matches snapshot 1`] = `
 <header
   className="header"
 >
-  <Link
-    href="/"
+  <div
+    className="headerInner"
   >
-    <a
-      className="headerLogoWrapper"
+    <Link
+      href="/"
     >
-      <span
-        className="filmyteLogo"
+      <a
+        className="headerLogoLink"
       >
-        Filmyte
-      </span>
-    </a>
-  </Link>
-  <nav
-    className="navWrapper"
-  >
-    <ul
-      className="navList"
+        <span
+          className="filmyteLogo"
+        >
+          Filmyte
+        </span>
+      </a>
+    </Link>
+    <nav
+      className="navWrapper"
     >
-      <li>
-        <Link
-          href="/discover"
-        >
-          <a>
-            Discover
-          </a>
-        </Link>
-      </li>
-      <li>
-        <Link
-          href="/about"
-        >
-          <a>
-            About
-          </a>
-        </Link>
-      </li>
-    </ul>
-  </nav>
+      <ul
+        className="navList"
+      >
+        <li>
+          <Link
+            href="/discover"
+          >
+            <a>
+              Discover
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/about"
+          >
+            <a>
+              About
+            </a>
+          </Link>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
 `;

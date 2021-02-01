@@ -1,52 +1,58 @@
-@use "styles/variables" as *;
+@use "styles/variables" as v;
+@use "styles/mixins" as m;
 
 .footer {
-  width: 100%;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @include m.maxWidthWrapper;
   // background-color: $ui-color-background-secondary;
-  background-image: linear-gradient($ui-color-background-primary, $ui-color-background-secondary);
+  background-image: linear-gradient(v.$ui-color-background-primary,
+    v.$ui-color-background-secondary);
 
-  // powered by section
-  .poweredBy {
+  .footerInner {
+    @include m.maxWidth;
+    padding: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    padding: 1rem;
 
-    .poweredByText {
-      padding-left: 2rem;
-    }
+    // powered by section
+    .poweredBy {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 1rem;
 
-    .poweredByList {
-      display: inline-flex;
-      list-style: none;
-      padding: 0;
-      margin: 0 auto;
-  
-      // powered by list items
-      li {
-        padding: 0.5rem 2rem;
-        border-right: 1px solid $gray-50;
+      .poweredByText {
+        padding-left: 2rem;
+      }
 
-        a {
-          padding: 0.5rem;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-  
-        &:last-of-type {
-          border-right: 0;
+      .poweredByList {
+        display: inline-flex;
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+    
+        // powered by list items
+        li {
+          padding: 0.5rem 2rem;
+          border-right: 1px solid v.$gray-50;
+
+          a {
+            padding: 0.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+    
+          &:last-of-type {
+            border-right: 0;
+          }
         }
       }
     }
-  }
 
-  > *:last-child {
-    border-top: 1px solid $gray-50;
+    > *:last-child {
+      border-top: 1px solid v.$gray-50;
+    }
   }
 }
 

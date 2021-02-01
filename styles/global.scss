@@ -1,4 +1,4 @@
-@use "styles/variables" as *;
+@use "styles/variables" as v;
 
 /**
  * - px for border widths, box shadows, etc.
@@ -13,7 +13,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $ui-color-background-primary;
+  background-color: v.$ui-color-background-primary;
 }
 
 a {
@@ -25,6 +25,7 @@ a {
   box-sizing: border-box;
 }
 
-// h1 {
-//   font-size: 2em;
-// }
+// TO DO: change these for default movie info page styles
+h1, h2 {
+  margin: 1rem 0 1rem 0;
+}
