@@ -1,15 +1,19 @@
+@use "styles/variables" as v;
+
 @mixin filmyteLogo {
   font-style: italic;
   font-weight: bold;
   font-family: 'Asap', sans-serif;
 }
 
+// max width styling
 @mixin maxWidthWrapper {
   display: flex;
   justify-content: center;
 }
 
 @mixin maxWidth {
-  max-width: 1440px;
+  max-width: v.$page-max-width;
   width: 100%;
+  padding: 2rem;
 }

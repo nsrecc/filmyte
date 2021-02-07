@@ -1,0 +1,24 @@
+@use "styles/variables" as v;
+
+/* Theme Colors */
+// Use Sass Interpolation to use Sass variables with CSS Variables:
+// https://sass-lang.com/documentation/breaking-changes/css-vars 
+.light {
+  --theme-page-bg-primary: #{v.$gray-90};
+  --theme-page-bg-secondary: #{v.$gray-80};
+  --theme-page-text: #{v.$black-pure};
+  --theme-header-bg: #{v.$filmyte-rajah};
+}
+
+.dark {
+  --theme-page-bg-primary: #{v.$gray-10};
+  --theme-page-bg-secondary: #{v.$gray-20};
+  --theme-page-text: #{v.$white-pure};
+  --theme-header-bg: #{v.$filmyte-mulled-wine};
+}
+
+/* Theme Sass */
+.theme {
+  background-color: var(--theme-page-bg-primary);
+  color: var(--theme-page-text);
+}

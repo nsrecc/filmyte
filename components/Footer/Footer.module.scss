@@ -3,13 +3,11 @@
 
 .footer {
   @include m.maxWidthWrapper;
-  // background-color: $ui-color-background-secondary;
-  background-image: linear-gradient(v.$ui-color-background-primary,
-    v.$ui-color-background-secondary);
+  background: linear-gradient(var(--theme-page-bg-primary), var(--theme-page-bg-secondary));
 
   .footerInner {
     @include m.maxWidth;
-    padding: 2rem;
+    padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,6 +39,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
+            .vercelLogo {
+              height: 1.3em;
+            }
           }
     
           &:last-of-type {
@@ -54,9 +56,4 @@
       border-top: 1px solid v.$gray-50;
     }
   }
-}
-
-// TO DO: rename / change
-.logo {
-  height: 1.3em;
 }

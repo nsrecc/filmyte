@@ -1,3 +1,5 @@
+/* Theme styles can be found in /providers/ThemeProvider.module.scss */
+
 @use "styles/variables" as v;
 
 /**
@@ -13,7 +15,20 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: v.$ui-color-background-primary;
+}
+
+.app {
+  // to get page to fill whole viewport
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  // to get page to fill whole viewport
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
 }
 
 a {
@@ -28,4 +43,16 @@ a {
 // TO DO: change these for default movie info page styles
 h1, h2 {
   margin: 1rem 0 1rem 0;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: transparent;
+  border: 0.1rem solid v.$black-pure;
+  border-radius: 25%;
 }

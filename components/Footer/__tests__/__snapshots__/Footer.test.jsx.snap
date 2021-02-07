@@ -31,8 +31,9 @@ exports[`Footer matches snapshot 1`] = `
           >
             <img
               alt="Vercel Logo"
-              className="logo"
-              src="/vercel.svg"
+              className="vercelLogo"
+              id="vercel-logo"
+              src="/icons/vercel.svg"
             />
           </a>
         </li>

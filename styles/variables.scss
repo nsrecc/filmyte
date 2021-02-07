@@ -1,3 +1,5 @@
+/* Theme styles can be found in /providers/ThemeProvider.module.scss */
+
 /* Colors */
 $black-pure: #000000;
 
@@ -28,11 +30,6 @@ $filmyte-rajah: #f4ac7b;
 $tmdb-primary-color: #0d253f; // dark blue
 $tmdb-secondary-color: #01b4e4; // light blue
 $tmdb-tertiary-color: #90cea1; // light green
-
-// UI Color Config
-$ui-color-background-primary: $gray-90;
-$ui-color-background-secondary: $gray-80;
-$ui-color-background-tertiary: $white-pure;
 
 /* Breakpoints */
 $page-max-width: 1440px;

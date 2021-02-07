@@ -20,32 +20,48 @@ exports[`Header matches snapshot 1`] = `
         </span>
       </a>
     </Link>
-    <nav
-      className="navWrapper"
+    <div
+      className="headerEnd"
     >
-      <ul
-        className="navList"
+      <nav
+        className="navWrapper"
       >
-        <li>
-          <Link
-            href="/discover"
-          >
-            <a>
-              Discover
-            </a>
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/about"
-          >
-            <a>
-              About
-            </a>
-          </Link>
-        </li>
-      </ul>
-    </nav>
+        <ul
+          className="navList"
+        >
+          <li>
+            <Link
+              href="/discover"
+            >
+              <a>
+                Discover
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/about"
+            >
+              <a>
+                About
+              </a>
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <button
+        className="themeButton"
+        id="theme-toggle"
+        onClick={[MockFunction toggleTheme]}
+        type="button"
+      >
+        <Moon
+          color="#000000"
+          size="1.5em"
+          weight="bold"
+        />
+      </button>
+    </div>
   </div>
 </header>
 `;
