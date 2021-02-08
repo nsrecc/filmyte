@@ -1,0 +1,17 @@
+@use "styles/variables" as v;
+@use "styles/mixins" as m;
+
+.fzfWrapper {
+  @include m.maxWidth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1, h2 {
+    padding: 0 2rem;
+
+    &:first-child {
+      border-right: 1px solid v.$gray-50;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom 404 matches snapshot 1`] = `
+<div
+  className="fzfWrapper"
+>
+  <h1>
+    404
+  </h1>
+  <h2>
+    This page could not be found.
+  </h2>
+</div>
+`;
