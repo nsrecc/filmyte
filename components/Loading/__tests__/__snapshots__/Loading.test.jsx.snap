@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading matches snapshot 1`] = `
+<div
+  className="loadingWrapper"
+>
+  <Loader
+    color="#000000"
+    css=""
+    loading={true}
+    margin={2}
+    size="1rem"
+  />
+</div>
+`;

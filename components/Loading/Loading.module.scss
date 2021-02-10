@@ -1,0 +1,8 @@
+@use "styles/mixins" as m;
+
+.loadingWrapper {
+  @include m.maxWidth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

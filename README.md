@@ -43,6 +43,7 @@ Coverage results are placed in the `/coverage` folder at the root directory.
 * [cross-fetch](https://github.com/lquixada/cross-fetch) - Universal WHATWG Fetch API for Node, Browsers and React Native
 * [Lodash](https://lodash.com/) - Modern JavaScript utility library
 * [phosphor-react](https://github.com/phosphor-icons/phosphor-react) - [Phosphor Icons](https://phosphoricons.com/) for React
+* [React Spinners](https://github.com/davidhu2000/react-spinners) - Collection of loading spinner components for React
 * [Jest](https://jestjs.io/en/) - JavaScript Testing Framework
 * [Enzyme](https://enzymejs.github.io/enzyme/) - JavaScript Testing Utility for React
     * [@wojtekmaj/enzyme-adapter-react-17](https://github.com/wojtekmaj/enzyme-adapter-react-17) - Unofficial Enzyme adapter for React v17.0 until official support is released. For more information, see here: https://github.com/enzymejs/enzyme/issues/2429
