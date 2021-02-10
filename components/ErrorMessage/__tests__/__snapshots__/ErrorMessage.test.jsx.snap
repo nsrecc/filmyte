@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessage matches snapshot 1`] = `
+<div
+  className="errorMessageWrapper"
+>
+  <h1>
+    Error.
+  </h1>
+  <h2>
+    Please try again later.
+  </h2>
+</div>
+`;
+
+exports[`ErrorMessage matches snapshot with props 1`] = `
+<div
+  className="errorMessageWrapper"
+>
+  <h1>
+    Error.
+  </h1>
+  <h2>
+    Error message. Please try again later.
+  </h2>
+</div>
+`;
