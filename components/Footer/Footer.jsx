@@ -1,5 +1,5 @@
 import React from 'react';
-import { useThemeContext } from 'providers/ThemeProvider';
+import { useThemeContext } from 'providers/ThemeProvider/ThemeProvider';
 import styles from './Footer.module.scss';
 
 const Footer = () => {
@@ -15,6 +15,11 @@ const Footer = () => {
           <p className={styles.poweredByText}>Powered by:</p>
           <ul className={styles.poweredByList}>
             <li>
+              <a href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">
+                The Movie Database (TMDb)
+              </a>
+            </li>
+            <li>
               <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   className={styles.vercelLogo}
@@ -22,11 +27,6 @@ const Footer = () => {
                   alt="Vercel Logo"
                   src={vercelSvgSrc}
                 />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">
-                The Movie Database (TMDb)
               </a>
             </li>
           </ul>

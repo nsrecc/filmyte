@@ -1,5 +1,5 @@
 import React from 'react';
-import { useThemeContext } from 'providers/ThemeProvider';
+import { useThemeContext } from 'providers/ThemeProvider/ThemeProvider';
 import PulseLoader from 'react-spinners/PulseLoader';
 import styles from './Loading.module.scss';
 

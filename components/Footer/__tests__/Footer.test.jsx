@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow, mount, render } from 'enzyme';
-import { useThemeContext } from 'providers/ThemeProvider';
+import { useThemeContext } from 'providers/ThemeProvider/ThemeProvider';
 import Footer from '../Footer';
 
-jest.mock('providers/ThemeProvider', () => ({
+jest.mock('providers/ThemeProvider/ThemeProvider', () => ({
   useThemeContext: jest.fn().mockName('useThemeContext'),
 }));
 

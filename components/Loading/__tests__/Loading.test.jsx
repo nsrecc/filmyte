@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import { shallow, mount, render } from 'enzyme';
-import { useThemeContext } from 'providers/ThemeProvider';
+import { useThemeContext } from 'providers/ThemeProvider/ThemeProvider';
 import Loading from '../Loading';
 
-jest.mock('providers/ThemeProvider', () => ({
+jest.mock('providers/ThemeProvider/ThemeProvider', () => ({
   useThemeContext: jest.fn().mockName('useThemeContext'),
 }));
 

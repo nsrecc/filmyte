@@ -25,6 +25,15 @@ exports[`Footer matches snapshot 1`] = `
       >
         <li>
           <a
+            href="https://www.themoviedb.org/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            The Movie Database (TMDb)
+          </a>
+        </li>
+        <li>
+          <a
             href="https://vercel.com/"
             rel="noopener noreferrer"
             target="_blank"
@@ -35,15 +44,6 @@ exports[`Footer matches snapshot 1`] = `
               id="vercel-logo"
               src="/icons/vercel.svg"
             />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.themoviedb.org/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            The Movie Database (TMDb)
           </a>
         </li>
       </ul>

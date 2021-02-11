@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Link from 'next/link'; // Wraps <a> elements
-import { useThemeContext } from 'providers/ThemeProvider';
+import { useThemeContext } from 'providers/ThemeProvider/ThemeProvider';
 import { Sun, Moon } from 'phosphor-react';
 import styles from './Header.module.scss';
 
@@ -30,6 +30,11 @@ const Header = () => {
         <div className={styles.headerEnd}>
           <nav className={styles.navWrapper}>
             <ul className={styles.navList}>
+              <li>
+                <Link href="/search">
+                  <a>Search</a>
+                </Link>
+              </li>
               <li>
                 <Link href="/discover">
                   <a>Discover</a>

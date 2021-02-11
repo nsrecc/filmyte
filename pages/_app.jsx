@@ -2,7 +2,7 @@
 import React from 'react';
 import { ApolloProvider } from '@apollo/client';
 import { useApollo } from 'lib/apolloClient';
-import { ThemeProvider } from 'providers/ThemeProvider';
+import { ThemeProvider } from 'providers/ThemeProvider/ThemeProvider';
 import Layout from 'components/Layout/Layout';
 import 'styles/global.scss';
 
