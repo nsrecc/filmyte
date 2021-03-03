@@ -2,6 +2,7 @@
 import React from 'react';
 import { ApolloProvider } from '@apollo/client';
 import { useApollo } from 'lib/apolloClient';
+import { GlobalProvider } from 'providers/GlobalProvider/GlobalProvider';
 import { ThemeProvider } from 'providers/ThemeProvider/ThemeProvider';
 import Layout from 'components/Layout/Layout';
 import 'styles/global.scss';
@@ -11,11 +12,13 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <ApolloProvider client={apolloClient}>
-      <ThemeProvider>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </ThemeProvider>
+      <GlobalProvider>
+        <ThemeProvider>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </ThemeProvider>
+      </GlobalProvider>
     </ApolloProvider>
   );
 }
